@@ -5,7 +5,7 @@ function ItemForm(props) {
   return (
     <form className="NewItem">
       <label>
-        Name:
+        Name:{props.name}
         <input type="text" name="name" />
       </label>
 
